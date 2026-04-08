@@ -12,21 +12,44 @@
   </head>
   <body>
     <div id="flipbook">
-        <div class="page" id="page-1">
-            <div id="deco">
-                <img src="images/page1_terracotta.svg" alt="" class="page1_terracotta" />
-                <img src="images/page1_lightgreen.svg" alt="" class="page1_lightgreen" />
-                <img src="images/page1_darkgreen.svg" alt="" class="page1_darkgreen" />
-                <img src="images/leaf1.png" alt="" class="leaf-bottom-left" />
-                <img src="images/leaf2.png" alt="" class="leaf-top-right" />
-            </div>
+      <!-- Page 1 -->
+      <div class="page" id="page-1">
+        <div class="deco">
+          <img src="images/page1_deco.svg" alt="Fond deco page 1" />
         </div>
-        <div class="page" id="page-2">Page 2</div>
-        <div class="page" id="page-3">Page 3</div>
-        <div class="page" id="page-4">Page 4</div>
+        <div id="page1_description">
+          <h1>Herbarium</h1>
+          <p>Magazine de plantes<br />pour les débutants</p>
+        </div>
+      </div>
+
+      <!-- Page 2 -->
+      <div class="page" id="page-2">
+        <div class="deco">
+          <img src="images/page2_deco.svg" alt="Fond deco page 2" />
+        </div>
+        <h2>Le Magazine</h2>
+        <p>Découvrez le monde des plantes, <br />même sans la main verte.</p>
+        <div>
+          <article class="card">
+            <figure>
+              <img class="img_card" src="images/pic1_card.svg" alt="Image card 1" />
+            </figure>
+            <h3>Plantes</h3>
+            <p>Des guides clairs pour chaque plante</p>
+          </article>
+        </div>
+        <p>«Les plantes ne parlent pas, <br /> mais elles ont beaucoup à dire.»</p>
+      </div>
+
+      <!-- Page 3 -->
+      <div class="page" id="page-3">Page 3</div>
+
+      <!-- Page 4 -->
+      <div class="page" id="page-4">Page 4</div>
     </div>
 
     <script src="js/page-flip.browser.js"></script>
     <script src="js/script.js"></script>
-    </body>
+  </body>
 </html>
